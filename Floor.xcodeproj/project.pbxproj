@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A97AE052B2E141C00573FC0 /* Dice.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2A97AE042B2E141C00573FC0 /* Dice.usdz */; };
 		2AFE97612B2D86F100A8EEB2 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2AFE97602B2D86F100A8EEB2 /* RealityKitContent */; };
 		2AFE97632B2D86F100A8EEB2 /* FloorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE97622B2D86F100A8EEB2 /* FloorApp.swift */; };
 		2AFE97652B2D86F100A8EEB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE97642B2D86F100A8EEB2 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A97AE042B2E141C00573FC0 /* Dice.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dice.usdz; sourceTree = "<group>"; };
 		2AFE975B2B2D86F100A8EEB2 /* Floor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFE975F2B2D86F100A8EEB2 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		2AFE97622B2D86F100A8EEB2 /* FloorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorApp.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				2AFE97622B2D86F100A8EEB2 /* FloorApp.swift */,
 				2AFE97642B2D86F100A8EEB2 /* ContentView.swift */,
 				2AFE97662B2D86F100A8EEB2 /* ImmersiveView.swift */,
+				2A97AE042B2E141C00573FC0 /* Dice.usdz */,
 				2AFE97682B2D86F100A8EEB2 /* ImageBasedLighting.skybox */,
 				2AFE976A2B2D86F300A8EEB2 /* Assets.xcassets */,
 				2AFE976F2B2D86F300A8EEB2 /* Info.plist */,
@@ -150,6 +153,7 @@
 			files = (
 				2AFE976B2B2D86F300A8EEB2 /* Assets.xcassets in Resources */,
 				2AFE976E2B2D86F300A8EEB2 /* Preview Assets.xcassets in Resources */,
+				2A97AE052B2E141C00573FC0 /* Dice.usdz in Resources */,
 				2AFE97692B2D86F100A8EEB2 /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
