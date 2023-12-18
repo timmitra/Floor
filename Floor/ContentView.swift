@@ -11,7 +11,6 @@ import RealityKitContent
 
 struct ContentView: View {
 
-    @State private var enlarge = false
     @State private var showImmersiveSpace = false
     @State private var immersiveSpaceIsShown = false
 
@@ -27,18 +26,12 @@ struct ContentView: View {
                 }
             } update: { content in
                 // Update the RealityKit content when SwiftUI state changes
-                if let scene = content.entities.first {
-                    let uniformScale: Float = enlarge ? 1.4 : 1.0
-                    scene.transform.scale = [uniformScale, uniformScale, uniformScale]
-                }
             }
             .gesture(TapGesture().targetedToAnyEntity().onEnded { _ in
-                enlarge.toggle()
+                //enlarge.toggle()
             })
 
             VStack (spacing: 12) {
-                Toggle("Enlarge RealityView Content", isOn: $enlarge)
-                    .font(.title)
 
                 Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
                     .font(.title)
@@ -66,7 +59,7 @@ struct ContentView: View {
                 }
             }
         }
-    }
+        }
 }
 
 #Preview(windowStyle: .volumetric) {
